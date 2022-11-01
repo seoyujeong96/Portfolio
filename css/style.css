@@ -662,6 +662,7 @@ body.push-side #ascrail2000-hr {
 .copyright {
 	color: rgba(130, 130, 130, 0.29);
 	position: fixed;
+	z-index: 9999;
 	height: 80px;
 	width: 614px;
 	left: 0;
@@ -671,7 +672,8 @@ body.push-side #ascrail2000-hr {
 	padding-top: 20px;
 }
 .copyright p{font-size: 10px;
-	margin:0;}
+	margin:0;
+text-align: center;}
 
 .copyright a {
 	color: rgba(130, 130, 130, 0.29);
